@@ -1,6 +1,13 @@
 Using Git
 ===============
 
+
+Pre
+-----------
+install paket from powershell > Start-Process .paket\paket install
+push stuff out > git push origin HEAD:xxxxxxxxxxx
+
+
 Global Settings
 -----------
 
