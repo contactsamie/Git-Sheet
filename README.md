@@ -4,6 +4,8 @@ Using Git
 
 Pre
 -----------
+get current branch > git branch 
+
 install paket from powershell > Start-Process .paket\paket install
 
 push stuff out > git push origin HEAD:xxxxxxxxxxx
