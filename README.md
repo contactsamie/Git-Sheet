@@ -10,14 +10,8 @@ push stuff out > git push origin HEAD:xxxxxxxxxxx
 
 delete a branch > git push origin --delete xxxxxxxxxx
 
-Undo a commit and redo
-------------
+Undo a commit > git reset HEAD~
 
-$ git commit -m "Something terribly misguided"              (1)
-$ git reset HEAD~                                           (2)
-<< edit files as necessary >>                               (3)
-$ git add ...                                               (4)
-$ git commit -c ORIG_HEAD                                   (5)
 
 
 
