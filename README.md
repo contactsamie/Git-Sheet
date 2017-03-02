@@ -8,6 +8,8 @@ install paket from powershell > Start-Process .paket\paket install
 
 push stuff out > git push origin HEAD:xxxxxxxxxxx
 
+delete a branch > git push origin --delete xxxxxxxxxx
+
 
 Global Settings
 -----------
