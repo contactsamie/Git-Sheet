@@ -12,6 +12,7 @@ delete a branch > git push origin --delete xxxxxxxxxx
 
 Undo a commit > git reset HEAD~
 
+saving > git commit [i > ESC > :wq]
 
 
 
