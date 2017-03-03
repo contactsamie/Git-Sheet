@@ -16,6 +16,7 @@ Undo a commit > git reset HEAD~
 
 saving > git commit [i > ESC > :wq]
 
+THROW AWAY ALL THE CHANGES YOU’VE MADE LOCALLY AND RESET IT TO THE CURRENT BRANCH > git checkout -- .
 
 
 Global Settings
