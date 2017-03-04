@@ -8,6 +8,8 @@ get current branch > git branch
 
 delete all your local changes so far > git checkout -- .  
 
+create a new branch > git checkout -b xxxxxxxx    THEN DO THIS > git push origin xxxxxxxx
+
 install paket from powershell > Start-Process .paket\paket install
 
 push stuff out > git push origin HEAD:xxxxxxxxxxx
