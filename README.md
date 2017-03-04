@@ -6,6 +6,8 @@ Pre
 -----------
 get current branch > git branch 
 
+check if there is any change on remote branch than yours > git fetch; git log HEAD.. --oneline
+
 delete all your local changes so far > git checkout -- .  
 
 create a new branch > git checkout -b xxxxxxxx    THEN DO THIS > git push origin xxxxxxxx
