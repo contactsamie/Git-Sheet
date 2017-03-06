@@ -4,6 +4,8 @@ Using Git
 
 Pre
 -----------
+see git graph in text > git log --graph --oneline --decorate --all
+
 get current branch > git branch 
 
 check if there is any change on remote branch than yours > git fetch; git log HEAD.. --oneline
