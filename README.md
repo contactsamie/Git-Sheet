@@ -30,12 +30,18 @@ THROW AWAY ALL THE CHANGES YOU’VE MADE LOCALLY AND RESET IT TO THE CURRENT BRA
 How to replace master branch in git, entirely, from another branch> 
 
 git checkout seotweaks
+
 git merge -s ours master
+
 git checkout master
+
 git merge seotweaks
+
 The result should be your master is now essentially seotweaks.
 
+
 (-s ours is short for --strategy=ours)
+
 
 
 Global Settings
